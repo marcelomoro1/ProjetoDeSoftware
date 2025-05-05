@@ -1,0 +1,24 @@
+Pb = peso bruto
+Pl = peso liquido
+Fc = PB/PL
+Categorias: Prato principal
+	Salada
+	Sobremesa
+	Bebida
+	Guarnição
+
+Custo (forma de compra): preço da quantidade comprada
+Custo (quantidade utilizada): Se usou menos quantidade fazer a regra de três para ver o preço real
+Custo per capita: custo custo total / numero de porções
+
+Numero de porções: Rendimento (peso total) / peso da porção -> arredonda para baixo (ground)
+
+Fcc (fator cocção): Peso cozido / Peso cru (peso liquido) -> do preparo completo, então precisa somar todos valores do peso liquido
+Vai ter 3 campos, com água, sem água e 50%
+
+
+Perfil Nutricional: 
+Per capita: Peso liquido total do alimento / porções
+Proteina = 4kcal por g
+Carbo = 4kcal por g
+Gordura = 9kcal por g
