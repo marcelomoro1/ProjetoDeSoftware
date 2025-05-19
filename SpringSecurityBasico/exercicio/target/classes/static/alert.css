@@ -1,0 +1,9 @@
+.alert-danger p{
+    color: red;
+    background-color: aqua;
+}
+
+.alert-info p{
+    color: blueviolet;
+    background-color: bisque;
+}
